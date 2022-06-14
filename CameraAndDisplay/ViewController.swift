@@ -24,7 +24,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             present(imagePicker, animated: true, completion: nil)
         }
     
-    
+    //comment
     @IBAction func selfiePressed(_ sender: Any) {
         imagePicker.sourceType = .camera
         
